@@ -1,0 +1,13 @@
+
+n=int(input("Ingrese cantidad de elementos: "))
+suma=0
+l=[]
+
+for i in range(n):
+    numero=int(input("Ingrese un número: "))
+    l.append(numero)
+
+for k in range(len(l)):
+  suma=suma+l[k]
+      
+print("El promedio es: ", suma/n)
