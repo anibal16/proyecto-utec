@@ -11,7 +11,7 @@ for i in range(n):
     otra=0
     l.append(numero)
     for x in range(0,len(capicua)/2):
-        if capicua[algo]==cadena[otro]
+        if capicua[algo]==cadena[otro]:
             algo=algo+1
             otro=otro+1
             print("Es capicúa")
