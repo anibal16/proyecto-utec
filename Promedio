@@ -11,3 +11,18 @@ for k in range(len(l)):
   suma=suma+l[k]
       
 print("El promedio es: ", suma/n)
+
+
+
+
+# codigo para saber promedio final de notas en los cursos
+x= str(input("Ingrese el curso: "))
+
+if x=="Mate":
+    s=0
+    for i in range (4):
+    y=int(input("Ingresar nota"))
+    s=s+y
+promedio_mate=s/4
+
+    
