@@ -26,3 +26,15 @@ if x=="Mate":
 promedio_mate=s/4
 
     
+
+# Código para saber si aprobó Matemáticas
+
+if promedio_mate>13:
+    print("Ha pasado el curso satisfactoriamente con un promedio de:", promedio_mate)
+if 13>=promedio_mate>=11
+    print("Puede rendir un último examen opcional para levantar su promedio")
+else:
+    print("Porfavor acercarse a hablar con el maestro sobre su promedio")
+
+
+
