@@ -1,10 +1,10 @@
 
-n=int(input("Ingrese cantidad de elementos: "))
+n=int(input("Ingresar el numero a promediar "))
 suma=0
 l=[]
 
 for i in range(n):
-    numero=int(input("Ingrese un número: "))
+    numero=int(input("ingresar el numero a promediar "))
     l.append(numero)
 
 for k in range(len(l)):
