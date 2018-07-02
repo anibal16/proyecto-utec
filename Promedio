@@ -36,5 +36,15 @@ if 13>=promedio_mate>=11
 else:
     print("Porfavor acercarse a hablar con el maestro sobre su promedio")
 
+#_____ CODIGO PARA HALLAR EL PROMEIDO DE N NUMEROS
+temp= 0
+num = 0
+promedio =0.0
+ 
+while(num > -1):
+            num=int(input("Ingresa numero\n"))
+           promedio=promedio+num
+           temp=temp+1
+print(suma/(temp-1))
 
 
