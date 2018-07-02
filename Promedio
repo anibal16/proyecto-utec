@@ -5,8 +5,19 @@ l=[]
 
 for i in range(n):
     numero=int(input("Ingrese un número: "))
+    capicua=str(numero)
+    algo=0
+    otro=-1
+    otra=0
     l.append(numero)
-
+    for x in range(0,len(capicua)/2):
+        if capicua[algo]==cadena[otro]
+            algo=algo+1
+            otro=otro+1
+            print("Es capicúa")
+        else: 
+            print("No es capicúa")
+  
 for k in range(len(l)):
   suma=suma+l[k]
       
